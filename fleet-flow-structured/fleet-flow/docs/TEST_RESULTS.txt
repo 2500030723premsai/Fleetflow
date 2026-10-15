@@ -1,0 +1,13 @@
+FleetFlow algorithm regression tests
+
+Command: ./scripts/test.sh
+Runtime: OpenJDK 21
+Result: 17 test groups passed.
+
+Groups: KMP; Rabin-Karp; Aho-Corasick overlapping patterns; Levenshtein distance;
+Damerau-Levenshtein transposition; Aho-Corasick failure links; bitmask TSP;
+single-location TSP; Edmonds-Karp max flow; Dinic max flow; minimum-cut source side;
+bipartite matching; vertex-cover approximation; randomized QuickSort; parallel reduce;
+reservoir sampling; suffix array and Kasai LCP.
+
+This is a representative regression suite, not exhaustive proof of all inputs or every menu workflow.
